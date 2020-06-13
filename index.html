@@ -12,7 +12,7 @@
 </head>
 <body>
     <!--navbar-->
-    <nav class=".navbar">
+    <nav class="navbar">
         <div class="navbar-center">
             <spn class="nav-icon">
                 <i class="fas fa-bars"></i>
@@ -21,7 +21,7 @@
             <div class="cart-btn">
                 <spn class="nav-icon">
                     <i class="fas fa-cart-plus"></i>
-                </spn>
+                </spn> 
                 <div class="cart-items">
                     0
                 </div>
@@ -29,6 +29,73 @@
         </div>
     </nav>
     <!--End of navbar-->
+    <!-- hero -->
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">furniture collection</h1>
+            <button class="banner-btn">shop now</button>
+        </div>
+    </header>
+    <!--end of hero -->
+    <!-- Products -->
+    <section class="products">
+        <div class="section-title">
+            <h2>Products</h2>
+        </div>
+        <div class="products-center">
+            <!-- single product-->
+            <article class="product">
+                <div class="img-container">
+                    <img src="images/product-1.jpeg" alt ="" class="product-img">
+                    <button class="bag-btn" data-id= "1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to the cart
+                    </button>
+                    <button class="bag-btn1" data-id= "1">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>
+                <h3>queen bed</h3>
+                <h4>$156</h4>
+            </article>
+            <!-- end of single product-->
+        </div>
+    </section>
+    <!-- end of Products -->
+    <!-- cart -->
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <h2>your cart</h2>
+                <div class="cart-content">
+                    <!--cart item-->
+                    <div class="cart-item">
+                        <img src="./images/product-1.jpeg" alt="product">
+                    
+                    <div>
+                        <h4>queen bed</h4>
+                        <h5>$165.00</h5>
+                        <span class="remove-item">remove</span>
+                    </div>
+                    <div>
+                        <i class="fas fa-plus-square"></i>
+                        <!--<i class="fas fa-chevron-up"></i>-->
+                        <p class="item-amount">0</p>
+                        <i class="fas fa-minus-square"></i>
+                        <!--<i class="fas fa-chevron-down"></i>-->
+                    </div>
+                </div>
+                    <!--end of cart item-->
+                </div>
+                <div class="cart-footer">
+                    <h3>your total : $ <span class="cart-total">0</span></h3>
+                    <button class="clear-cart banner-btn">clear cart</button>
+                </div>
+            </div>
+        </div>
+    <!-- end of cart -->
     <script src ="apps/app.js"></script>
 </body>
 </html> 
