@@ -40,10 +40,10 @@ body {
 }
 .nav-icon {
   font-size: 1.5rem;
+  cursor: pointer;
 }
 .cart-btn {
   position: relative;
-  cursor: pointer;
 }
 .cart-items {
   position: absolute;
@@ -58,14 +58,14 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
-  background: url("../images/hero-bcg.jpeg") center/cover no-repeat;
+  background: url("../images/CoverWatches.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .banner {
   text-align: center;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.3);
   display: inline-block;
   padding: 2rem;
 }
@@ -79,12 +79,13 @@ body {
   padding: 1rem 3rem;
   text-transform: uppercase;
   letter-spacing: var(--mainSpacing);
-  font-size: 1.2rem;
+  font-size: 2rem;
   background: var(--primaryColor);
   color: var(--mainBlack);
   border: 1px solid var(--primaryColor);
   transition: var(--mainTransition);
   cursor: pointer;
+  border-radius: 10px; 
 }
 .banner-btn:hover {
   background: transparent;
@@ -108,7 +109,7 @@ body {
   margin: 0 auto;
   max-width: 1170px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
 }
@@ -118,7 +119,7 @@ body {
 }
 .bag-btn {
   position: absolute;
-  bottom: 85%;
+  bottom: 86%;
   right: 0;
   background: var(--primaryColor);
   border: none;
@@ -135,7 +136,7 @@ body {
 }
 .bag-btn1 {
   position: absolute;
-  top: 85%;
+  top: 86%;
   left: 0;
   background: var(--primaryColor);
   border: none;
