@@ -3,65 +3,73 @@
       {
         "sys": { "id": "1" },
         "fields": {
-          "title": "queen panel bed",
-          "price": 10.99,
-          "image": { "fields": { "file": { "url": "./images/product-1.jpeg" } } }
+          "title": "BOS Mens Watch AW748DQO",
+          "price": 162.99,
+          "image": { "fields": { "file": { "url": "./images/w1.jpg" } } }
         }
       },
       {
         "sys": { "id": "2" },
         "fields": {
-          "title": "king panel bed",
-          "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/product-2.jpeg" } } }
+          "title": "Reef Tiger Mens Watch AWS8JMND",
+          "price": 449.99,
+          "image": { "fields": { "file": { "url": "./images/w2.jpg" } } }
         }
       },
       {
         "sys": { "id": "3" },
         "fields": {
-          "title": "single panel bed",
+          "title": "Carnival Ladies Watch AW158GAG",
           "price": 12.99,
-          "image": { "fields": { "file": { "url": "./images/product-3.jpeg" } } }
+          "image": { "fields": { "file": { "url": "./images/w3.jpg" } } }
         }
       },
       {
         "sys": { "id": "4" },
         "fields": {
-          "title": "twin panel bed",
-          "price": 22.99,
-          "image": { "fields": { "file": { "url": "./images/product-4.jpeg" } } }
+          "title": "Nesun Mens Watch AW770MRM",
+          "price": 146.99,
+          "image": { "fields": { "file": { "url": "./images/w4.jpg" } } }
         }
       },
       {
         "sys": { "id": "5" },
         "fields": {
-          "title": "fridge",
-          "price": 88.99,
-          "image": { "fields": { "file": { "url": "./images/product-5.jpeg" } } }
+          "title": "Carnival Mens Watches AW143DPI",
+          "price": 94.99,
+          "image": { "fields": { "file": { "url": "./images/w5.jpg" } } }
         }
       },
       {
         "sys": { "id": "6" },
         "fields": {
-          "title": "dresser",
-          "price": 32.99,
-          "image": { "fields": { "file": { "url": "./images/product-6.jpeg" } } }
+          "title": "Carnival Mens Watch AW587ITG",
+          "price": 107.99,
+          "image": { "fields": { "file": { "url": "./images/w6.jpg" } } }
         }
       },
       {
         "sys": { "id": "7" },
         "fields": {
-          "title": "couch",
-          "price": 45.99,
-          "image": { "fields": { "file": { "url": "./images/product-7.jpeg" } } }
+          "title": "Carnival Ladies Watch AW525IQE",
+          "price": 115.99,
+          "image": { "fields": { "file": { "url": "./images/w7.jpg" } } }
         }
       },
       {
         "sys": { "id": "8" },
         "fields": {
-          "title": "table",
-          "price": 33.99,
-          "image": { "fields": { "file": { "url": "./images/product-8.jpeg" } } }
+          "title": "Carnival Mens Watch AW344CPZ",
+          "price": 136.99,
+          "image": { "fields": { "file": { "url": "./images/w8.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "9" },
+        "fields": {
+          "title": "Carnival Mens Watch AW344CPZ",
+          "price": 116.99,
+          "image": { "fields": { "file": { "url": "./images/w9.jpg" } } }
         }
       }
     ]
