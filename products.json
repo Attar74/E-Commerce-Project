@@ -4,7 +4,7 @@
         "sys": { "id": "1" },
         "fields": {
           "title": "BOS Mens Watch AW748DQO",
-          "price": 190.99,
+          "price": 155.99,
           "image": { "fields": { "file": { "url": "./images/w1.jpg" } } }
         }
       },
@@ -20,7 +20,7 @@
         "sys": { "id": "3" },
         "fields": {
           "title": "Carnival Ladies Watch AW158GAG",
-          "price": 12.99,
+          "price": 122.99,
           "image": { "fields": { "file": { "url": "./images/w3.jpg" } } }
         }
       },
