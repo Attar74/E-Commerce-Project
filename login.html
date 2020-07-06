@@ -8,10 +8,12 @@
     <!--font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <!--Custom css-->
-    <link rel = "stylesheet" href ="styles/style.css" type="text/css">
+    <!--<link rel = "stylesheet" href ="styles/style.css" type="text/css">-->
     <style>
         .navbar .navbar-center img {
             margin: auto auto;
+            display: block;
+            margin-top: 30px;
         }
         /* Style inputs, select elements and textareas */
 input[type=text], select, textarea{
@@ -52,6 +54,7 @@ input[type=submit] {
   width: 70%;
   margin-top: 20px;
   height: 40px;
+  font-size: 15px;
 }
 
 /* Style the container */
@@ -62,7 +65,6 @@ input[type=submit] {
   border-radius: 5px;
   padding: 20px;
   border-bottom: 3px solid #e0e0e0 ;
-
 }
 
 .container form h1{
@@ -127,6 +129,24 @@ input[type=submit] {
     margin: 0 0;
     font-size: 20px;
 }
+footer .footer .ul1 ul {
+    text-align: center;
+}
+footer .footer .ul1 ul li{
+    display: inline;
+    padding: 10px;
+}
+footer .footer .ul1 ul li a{
+    text-decoration: none;
+    color: #df7919;
+}
+footer .footer .ul1 ul li a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+footer .footer .footer-center{
+    text-align: center;
+}
 
     </style>
 </head>
@@ -159,7 +179,7 @@ input[type=submit] {
             </div>
           </div>
           <div class="row">
-            <input type="submit" value="Submit">
+            <input type="submit" value="Sign in">
           </div>
         </form>
         <div class="registeration">
@@ -172,6 +192,22 @@ input[type=submit] {
         </div>
       </div>
     <!-- End of Login Form-->
+    <!--footer-->
+<footer>
+    <nav class="footer">
+        <div class="ul1">
+            <ul>
+                <li><a href="#">Condition of use</a></li>
+                <li><a href="#">Privacy Notice</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-center">
+            <p>&#169;2020 FCIENS-Souq.com FZ LLC and its affiliates. All rights reserved.</p>
+        </div>
+    </nav>
+</footer>
+<!--End footer-->
     
 </body>
 </html>
