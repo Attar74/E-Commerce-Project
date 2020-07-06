@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http=equiv=X-UA-Compatible" content = "ie=edge">
+    <title>FCIENS-Souq</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+    <!--Custom css-->
+    <link rel = "stylesheet" href ="styles/style.css" type="text/css">
+    <style>
+        .navbar .navbar-center img {
+            margin: auto auto;
+        }
+        /* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+input[type=password], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+form {
+    border: 1px solid #e0e0e0 ;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+}
+/* Style the submit button */
+input[type=submit] {
+  background-color: #df7919;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 70%;
+  margin-top: 20px;
+  height: 40px;
+}
+
+/* Style the container */
+.container {
+  width: 30%;
+  margin: auto auto;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 20px;
+  border-bottom: 3px solid #e0e0e0 ;
+
+}
+
+.container form h1{
+    margin: 10px 0;
+}
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.registeration{
+    
+    text-align: center;
+}
+.registeration h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 30px 0 20px; 
+} 
+
+.registeration h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.registeration .buttomInner{
+    background-color: #EEE;
+    margin: 30px 80px 0 80px;
+    width: 280px;
+    height: 30px;
+    border: 1px black solid;
+}
+.registeration .buttomInner a{
+    text-decoration: none;
+    color: black;
+    padding: 0 0;
+    margin: 0 0;
+    font-size: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <div class="navbar-center">
+            <img src="./images/logo.svg" alt = "Our Logo">
+        </div>
+    </nav>
+    <!--End of navbar-->
+    <!-- Login Form-->
+    <div class="container">
+        <form action="">
+            <h1>Sign in</h1>
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="Email" name="Email" required placeholder="Email..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="lname">Password</label>
+            </div>
+            <div class="col-75">
+              <input type="password" id="password" name="password" required placeholder="Password..">
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+        <div class="registeration">
+            <h2><span>New Customer?</span></h2>
+            <div class="buttomInner">
+                <a href="#" class="register">
+                    Create your Account
+                </a>
+            </div>
+        </div>
+      </div>
+    <!-- End of Login Form-->
+    
+</body>
+</html>

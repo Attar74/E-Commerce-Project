@@ -18,17 +18,41 @@
                 <i class="fas fa-bars"></i>
             </span>
             <img src="./images/logo.svg" alt = "Our Logo">
+            
             <div class="cart-btn">
+                <div class="user-account">
+                    <span class="User"><a href="login.html">Hello. Log In</a></span>
+                </div>
                 <span class="nav-icon">
                     <i class="fas fa-cart-plus"></i>
                 </span> 
                 <div class="cart-items">
                     0
                 </div>
+                
             </div>
         </div>
     </nav>
     <!--End of navbar-->
+    <!-- Categories-->
+    <nav class="categories">
+        <div class="categories-center">
+            <ul>
+                <li><a href="#">All Categories</a></li>
+                <li class="selected">Wateches</li>
+                <li><a href="#">Smart TVs</a></li>
+                <li><a href="#">Mobiles & Tablets</a></li>
+                <li><a href="#">Latops</a></li>
+                <li><a href="#">Smart TVs</a></li>
+                <li><a href="#">Mobiles & Tablets</a></li>
+                <li><a href="#">Latops</a></li>
+                <li><a href="#">Smart TVs</a></li>
+                <li><a href="#">Mobiles & Tablets</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <!-- End of Categories-->
     <!-- hero -->
     <header class="hero">
         <div class="banner">
@@ -39,7 +63,7 @@
     <!--end of hero -->
     <!-- Products -->
     <section class="products">
-        <div class="section-title">
+        <div class="section-title" id="d">
             <h2>Avaliable Products</h2>
         </div>
         <div class="products-center">
@@ -53,7 +77,7 @@
                 <span class="close-cart">
                     <i class="fas fa-window-close"></i>
                 </span>
-                <h2>your cart</h2>
+                <h2>User cart</h2>
                 <div class="cart-content">
                     <!--cart item-->
                     <div class="cart-item">
@@ -68,6 +92,22 @@
             </div>
         </div>
     <!-- end of cart -->
+    <!-- User card -->
+    <div class="UserCart-overlay">
+       
+    </div>
+<!-- end of User card -->
+<!--footer
+<footer>
+    <div class="footer-center">
+        <p>All Copy right reserved &#64; 2020</p>
+    </div>
+   
+</footer>
+End footer-->
+    <!-- ContentFul-->
+    <script src="https://cdn.jsdelivr.net/npm/contentful@latest/dist/contentful.browser.min.js"></script>
+    <!-- app.js -->
     <script src ="apps/app.js"></script>
 </body>
 </html>

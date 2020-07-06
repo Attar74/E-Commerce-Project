@@ -26,7 +26,7 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
-  background: rgb(231, 226, 221);
+  background-color: var(--mainWhite);
   z-index: 1;
 }
 .navbar-center {
@@ -54,7 +54,89 @@ body {
   border-radius: 30%;
   color: var(--mainWhite);
 }
+
+.user-account .User{
+  position: absolute;
+  top: 1PX;
+  left: -115px;
+  padding: 5px 1px;
+  font-size: 15px;
+  border-right: 2px #EEE solid;
+}
+.user-account span a {
+  text-decoration: none;
+  color:var(--mainBlack);
+  padding: 10px;
+  transition: color .5s;
+  color: grey;
+}
+.user-account span a:hover {
+  text-decoration: none;
+  color: #df7919;
+}
+.user-account i:hover{
+  cursor: pointer;
+  color: var(--primaryColor);
+}
+
 /* --------------- End of Navbar ---------------- */
+/* --------------- Categories ---------------- */
+.categories {
+  top: 0;  
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgb(231, 226, 221);
+  z-index: 1;
+}
+.categories-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+.selected {
+  background-color:#252934;
+  color: var(--mainWhite);
+  border-top: 3px solid #f09d51;
+}
+.categories .categories-center ul{
+  list-style: none;
+  }
+.categories .categories-center ul li {
+  display: inline;
+  padding: 10px 2px;
+  margin: 10px;
+}
+.categories .categories-center ul li a{
+  text-decoration: none;
+  color: var(--mainBlack);
+  transition: background-color .5s, color .5s,border-top .5s;
+}
+.categories .categories-center ul li a:hover{
+  text-decoration: none;
+  color: var(--mainWhite);
+  background-color:#252934;
+  padding: 10px 2px;
+  border-top: 3px solid blue;
+}
+@media screen and (max-width: 650px) {
+  .categories .categories-center ul{
+    display:none !important;
+  }
+}
+@media screen and (max-width: 1182px) {
+  .categories .categories-center ul li {
+    font-size: 13px;
+  }
+ 
+
+}
+/* --------------- End of Categories ---------------- */
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
@@ -280,3 +362,27 @@ body {
 }
 
 /* --------------- End of Cart ---------------- */
+
+/* --------------- Footer ---------------------*/
+footer{
+  position: sticky;
+  top: 0;  
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: rgb(231, 226, 221);
+  z-index: 1;
+  color: var(--primaryColor);
+  font-size:20px;
+}
+.footer-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25rem;
+}
+/* --------------- End Footer ---------------------*/
